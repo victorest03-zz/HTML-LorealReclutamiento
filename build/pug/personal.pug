@@ -1,0 +1,43 @@
+extends _shared
+block vars
+    - var title = "Personal"
+    - var description = "Listado de Personal Contratado"
+block styles
+    link(rel="stylesheet", href="https://cdn.datatables.net/1.10.19/css/dataTables.bootstrap.min.css")
+    link(rel="stylesheet", href="/css/personal.min.css")
+
+block content
+    .row
+        .col-md-12
+            .box.box-primary
+                .box-header.with-border
+                    .box-title Criterios de Busqueda
+                .box-body
+                    .row
+                        .col-sm-3
+                            .form-group
+                                label(for='fFechaInicio') Fecha Inicio
+                                input#fFechaInicio.form-control(type='date')
+                        .col-sm-3
+                            .form-group
+                                label(for='fFechaFin') Fecha Fin
+                                input#fFechaFin.form-control(type='date')
+                        .col-sm-3
+                            .form-group
+                                label(for='fkArea') Area
+                                select#fkArea.form-control
+                                    option Area de Gestión
+                                    option Area de RRHH
+                                    option Area de Marketing
+                .box-footer
+                    button.btn.btn-primary.pull-right Consultar
+        .col-md-12
+            .box
+                .box-body
+                    table#listPersonal.table.table-bordered.table-hover.table-crud
+    include modals/_personal.pug
+block scripts
+    script(src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js")
+    script(src="https://cdn.datatables.net/1.10.19/js/dataTables.bootstrap.min.js")
+    script(src="/js/dataTables.config.min.js")
+    script(src="/js/personal.min.js")

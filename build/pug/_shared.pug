@@ -1,0 +1,107 @@
+block vars
+doctype html
+html
+    head
+        meta(charset="utf-8")
+        meta(http-equiv="X-UA-Compatible", content="IE=edge")
+        title Gestion Personal | #{title}
+        meta(content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no", name="viewport")
+        link(rel="stylesheet" href="./plugins/bootstrap/css/bootstrap.min.css")
+        link(rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous")
+        link(rel="stylesheet" href="./css/adminLTE/adminLTE.min.css")
+        link(rel="stylesheet" href="./css/adminLTE/skin-blue.min.css")
+        //
+            if lt IE 9
+            script(src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js")
+            script(src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js")
+        link(rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic")
+        link(rel="stylesheet", href="/css/shared.min.css")
+        block styles
+    body.hold-transition.skin-blue.sidebar-mini
+        .wrapper
+            header.main-header
+                a.logo(href="#")
+                    span.logo-mini
+                        b P
+                        | M
+                    span.logo-lg
+                        b Personnel 
+                        | Management
+                nav.navbar.navbar-static-top(role="navigation")
+                    a.sidebar-toggle(href="#", data-toggle="push-menu", role="button")
+                        .fas.fa-bars
+                        span.sr-only Toggle navigation
+                    .navbar-custom-menu
+                        ul.nav.navbar-nav
+                            li.dropdown.user.user-menu
+                                a.dropdown-toggle(href="#", data-toggle="dropdown")
+                                    img.user-image(src="./images/avatar.png", alt="User Image")
+                                    span.hidden-xs Alexander Pierce
+                                ul.dropdown-menu
+                                    li.user-header
+                                        img.img-circle(src="./images/avatar.png", alt="User Image")
+                                        p
+                                            | Alexander Pierce - Recursos Humanos
+                                            small Miembro desde Sept. 2018
+                                    li.user-footer
+                                        .pull-left
+                                            a.btn.btn-default.btn-flat(href="#") Perfil
+                                        .pull-right
+                                            a.btn.btn-default.btn-flat(href="#") Cerrar Sesion
+            aside.main-sidebar
+                section.sidebar
+                    .user-panel
+                        .pull-left.image
+                            img.img-circle(src="./images/avatar.png", alt="User Image")
+                        .pull-left.info
+                            p Alexander Pierce
+                            a(href="#")
+                                i.fas.fa-circle.text-success
+                                |  Online
+                    ul.sidebar-menu(data-widget="tree")
+                        li.header MENU PRINCIPAL
+                        li.active
+                            a(href="/index.html")
+                                i.fas.fa-tachometer-alt
+                                span Dashboard
+                        li
+                            a(href="/personal.html")
+                                i.fas.fa-users
+                                span Personal
+                        li
+                            a(href="/postulantes.html")
+                                i.fas.fa-address-card
+                                span Postulantes
+                        li.treeview
+                            a(href="#")
+                                i.fas.fa-file-invoice
+                                span Reportes
+                                span.pull-right-container
+                                    i.fas.fa-angle-left.pull-right
+                            ul.treeview-menu
+                                li
+                                    a(href="#")
+                                        i.far.fa-circle
+                                        span Reporte de Personal
+                                li
+                                    a(href="#")
+                                        i.far.fa-circle
+                                        span Reporte de Postulante
+            .content-wrapper
+                section.content-header
+                    h1 #{title}
+                        if description
+                            small #{description}
+                section.content.container-fluid
+                    block content
+            footer.main-footer
+                .pull-right.hidden-xs Version 1.0
+                strong
+                    | Copyright © 2018
+                    a(href="#") SoftMedia Consultores
+                    | .
+                |  All rights reserved.
+        script(src="./plugins/jquery/jquery.min.js")
+        script(src="./plugins/bootstrap/js/bootstrap.min.js")
+        script(src="./js/adminLTE/adminlte.min.js")
+        block scripts

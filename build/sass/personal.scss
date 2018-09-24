@@ -1,0 +1,10 @@
+.table-crud{
+    tbody{
+        tr{
+            &:hover{
+                text-decoration-line: underline;
+                cursor: pointer;
+            }
+        }
+    }
+}

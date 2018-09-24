@@ -1,0 +1,5 @@
+.table-crud tbody tr:hover {
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+  cursor: pointer;
+}

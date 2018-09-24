@@ -1,0 +1,1 @@
+body .modal.modal-fullsize .modal-dialog{width:calc(100% - 20px)}@media (min-width:768px){body .modal.modal-fullsize .modal-dialog{width:calc(80% - 20px)}}

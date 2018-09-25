@@ -29,13 +29,12 @@ const gulp = require("gulp"),
 // });
 
 gulp.task("CompilePug",()=>{
-    gulp.src("./build/pug/**/!(_)*.pug")        
+    gulp.src("./build/pug/**/!(_)*.pug")
         .pipe(plumber())
         .pipe(pug({
             pretty : true
         }))
         .pipe(gulp.dest("./dist/"));
-    browserSync.reload
 })
 
 //Definicion de Tareas
@@ -69,6 +68,10 @@ gulp.task("serve",()=>{
         server: "./dist/",
         notify: false,
     });
+
+    gulp.watch("./dist/*.html", ()=>{
+        browserSync.reload
+    })
 });
 
 gulp.task("default", ["CompilePug","CompileSass","compilejs"],() => {

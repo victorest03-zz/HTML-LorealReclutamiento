@@ -36,5 +36,5 @@ $.extend(true, $.fn.dataTable.defaults, {
     dom: "<'row'<'col-xs-6 toolbar'lB><'col-xs-6 text-right'f>>" +
           "<'row'<'col-sm-12'<'table-responsive'tr>>>" +
           "<'row'<'col-sm-5'i><'col-sm-7'p>>",
-    autoWidth: false
+    autoWidth: false 
 });

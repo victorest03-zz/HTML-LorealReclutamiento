@@ -51,6 +51,7 @@ gulp.task("CompileSass", ()=>{
         .pipe(cleanCSS({compatibility: 'ie8'}))
         .pipe(rename({ suffix: '.min' }))
         .pipe(gulp.dest("./dist/css"))
+        .pipe(browserSync.stream())
 });
 
 gulp.task("compilejs", () => {
@@ -69,9 +70,10 @@ gulp.task("serve",()=>{
         notify: false,
     });
 
-    gulp.watch("./dist/*.html", ()=>{
-        browserSync.reload
-    })
+    gulp.watch("./dist/*.html").on("change", browserSync.reload)
+    gulp.watch("./dist/js/*.js", () =>{
+        browserSync.reload();
+    });
 });
 
 gulp.task("default", ["CompilePug","CompileSass","compilejs"],() => {

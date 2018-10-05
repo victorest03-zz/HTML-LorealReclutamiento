@@ -1,6 +1,6 @@
 $(()=>{
     const $listProyecto = $("#listProyecto"),
-        $modalProyecto = $("#modal-Postulantes")
+        $modalProyecto = $("#modal-postulantes")
     
     $listProyecto.DataTable({
         data : [
@@ -9,7 +9,8 @@ $(()=>{
                 "area":"Area de Marketing",
                 "cargo":"Ejecutivo de Venta",
                 "cant":"20",
-                "fechaCreacion":"19-02-2018"
+                "fechaCreacion":"19-02-2018",
+                "fechaCreacion":"24-03-2018"
             }
         ],
         columns: [
@@ -25,6 +26,7 @@ $(()=>{
                 "searchable": false,
             },
             { data: "fechaCreacion", title: "F. Creacion" },
+            { data: "fechaCreacion", title: "F. Cierre Proceso" },
             {
                 data: null,
                 defaultContent:
@@ -37,5 +39,7 @@ $(()=>{
     }).on("click", "tbody tr td:not(:has(button))", function () {
         $modalProyecto.modal("show");
     });
-    
+    $listProyecto.on("click", ".btn-verpostulante", function () {
+        $modalProyecto.modal("show");
+    });
 });

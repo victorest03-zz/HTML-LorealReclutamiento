@@ -9,7 +9,7 @@ $(()=>{
                 "nombres":"Alexander Luis",
                 "apellidos":"Pierce Jimenez",
                 "cargo":"Asistente Junior de Tráfico",
-                "division":"DO",
+                
                 "fechaIngreso":"19-02-2018"
             },
             {
@@ -17,7 +17,7 @@ $(()=>{
                 "nombres" :"Tiger Nixon",
                 "apellidos":"Pierce Jimenez",
                 "cargo" :"System Architect",
-                "division":"DO",
+                
                 "fechaIngreso":"2011/04/25"
             },
             {
@@ -25,7 +25,7 @@ $(()=>{
                 "nombres" :"Garrett Winters",
                 "apellidos":"Pierce Jimenez",
                 "cargo" :"Accountant",
-                "division":"DO",
+                
                 "fechaIngreso":"2011/07/25"
               },
               {
@@ -33,7 +33,7 @@ $(()=>{
                 "nombres" :"Ashton Cox",
                 "apellidos":"Pierce Jimenez",
                 "cargo" :"Junior Technical Author",
-                "division":"DO",
+                
                 "fechaIngreso":"2009/01/12"
               },
               {
@@ -41,7 +41,7 @@ $(()=>{
                 "nombres" :"Cedric Kelly",
                 "apellidos":"Pierce Jimenez",
                 "cargo" :"Senior Javascript Developer",
-                "division":"DO",
+                
                 "fechaIngreso":"2012/03/29"
               },
               {
@@ -49,7 +49,7 @@ $(()=>{
                 "nombres" :"Airi Satou",
                 "apellidos":"Pierce Jimenez",
                 "cargo" :"Accountant",
-                "division":"DO",
+                
                 "fechaIngreso":"2008/11/28"
               },
               {
@@ -57,7 +57,7 @@ $(()=>{
                 "nombres" :"Brielle Williamson",
                 "apellidos":"Pierce Jimenez",
                 "cargo" :"Integration Specialist",
-                "division":"DO",
+                
                 "fechaIngreso":"2012/12/02"
               },
               {
@@ -65,7 +65,7 @@ $(()=>{
                 "nombres" :"Herrod Chandler",
                 "apellidos":"Pierce Jimenez",
                 "cargo" :"Sales Assistant",
-                "division":"DO",
+                
                 "fechaIngreso":"2012/08/06"
               },
               {
@@ -73,7 +73,7 @@ $(()=>{
                 "nombres" :"Rhona Davidson",
                 "apellidos":"Pierce Jimenez",
                 "cargo" :"Integration Specialist",
-                "division":"DO",
+                
                 "fechaIngreso":"2010/10/14"
               },
               {
@@ -81,7 +81,7 @@ $(()=>{
                 "nombres":"Colleen Hurst",
                 "apellidos":"Pierce Jimenez",
                 "cargo":"Javascript Developer",
-                "division":"DO",
+                
                 "fechaIngreso":"2009/09/15"
               },
               {
@@ -89,7 +89,7 @@ $(()=>{
                 "nombres":"Sonya Frost",
                 "apellidos":"Pierce Jimenez",
                 "cargo":"Software Engineer",
-                "division":"DO",
+                
                 "fechaIngreso":"2008/12/13"
               },
               {
@@ -97,7 +97,7 @@ $(()=>{
                 "nombres":"Jena Gaines",
                 "apellidos":"Pierce Jimenez",
                 "cargo":"Office Manager",
-                "division":"DO",
+                
                 "fechaIngreso":"2008/12/19"
               },
               {
@@ -105,7 +105,7 @@ $(()=>{
                 "nombres":"Quinn Flynn",
                 "apellidos":"Pierce Jimenez",
                 "cargo":"Support Lead",
-                "division":"DO",
+                
                 "fechaIngreso":"2013/03/03"
               },
               {
@@ -113,7 +113,7 @@ $(()=>{
                 "nombres":"Charde Marshall",
                 "apellidos":"Pierce Jimenez",
                 "cargo":"Regional Director",
-                "division":"DO",
+                
                 "fechaIngreso":"2008/10/16"
               },
               {
@@ -121,7 +121,7 @@ $(()=>{
                 "nombres":"Haley Kennedy",
                 "apellidos":"Pierce Jimenez",
                 "cargo":"Senior Marketing Designer",
-                "division":"DO",
+                
                 "fechaIngreso":"2012/12/18"
               },
               {
@@ -129,7 +129,7 @@ $(()=>{
                 "nombres":"Tatyana Fitzpatrick",
                 "apellidos":"Pierce Jimenez",
                 "cargo":"Regional Director",
-                "division":"DO",
+                
                 "fechaIngreso":"2010/03/17"
               },
               {
@@ -137,7 +137,7 @@ $(()=>{
                 "nombres":"Michael Silva",
                 "apellidos":"Pierce Jimenez",
                 "cargo":"Marketing Designer",
-                "division":"DO",
+                
                 "fechaIngreso":"2012/11/27"
               },
               {
@@ -145,7 +145,7 @@ $(()=>{
                 "nombres":"Paul Byrd",
                 "apellidos":"Pierce Jimenez",
                 "cargo":"Chief Financial Officer (CFO)",
-                "division":"DO",
+                
                 "fechaIngreso":"2010/06/09"
               },
               {
@@ -153,7 +153,7 @@ $(()=>{
                 "nombres":"Gloria Little",
                 "apellidos":"Pierce Jimenez",
                 "cargo":"Systems Administrator",
-                "division":"DO",
+                
                 "fechaIngreso":"2009/04/10"
               },
               {
@@ -161,7 +161,7 @@ $(()=>{
                 "nombres":"Bradley Greer",
                 "apellidos":"Pierce Jimenez",
                 "cargo":"Software Engineer",
-                "division":"DO",
+                
                 "fechaIngreso":"2012/10/13"
               },
               {
@@ -169,7 +169,7 @@ $(()=>{
                 "nombres":"Dai Rios",
                 "apellidos":"Pierce Jimenez",
                 "cargo":"Personnel Lead",
-                "division":"DO",
+                
                 "fechaIngreso":"2012/09/26"
               },
               {
@@ -177,7 +177,7 @@ $(()=>{
                 "nombres":"Jenette Caldwell",
                 "apellidos":"Pierce Jimenez",
                 "cargo":"Development Lead",
-                "division":"DO",
+                
                 "fechaIngreso":"2011/09/03"
               },
               {
@@ -185,7 +185,7 @@ $(()=>{
                 "nombres":"Yuri Berry",
                 "apellidos":"Pierce Jimenez",
                 "cargo":"Chief Marketing Officer (CMO)",
-                "division":"DO",
+                
                 "fechaIngreso":"2009/06/25"
               },
               {
@@ -193,7 +193,7 @@ $(()=>{
                 "nombres":"Caesar Vance",
                 "apellidos":"Pierce Jimenez",
                 "cargo":"Pre-Sales Support",
-                "division":"DO",
+                
                 "fechaIngreso":"2011/12/12"
               },
               {
@@ -201,7 +201,7 @@ $(()=>{
                 "nombres":"Doris Wilder",
                 "apellidos":"Pierce Jimenez",
                 "cargo":"Sales Assistant",
-                "division":"DO",
+                
                 "fechaIngreso":"2010/09/20"
               },
               {
@@ -209,7 +209,7 @@ $(()=>{
                 "nombres":"Angelica Ramos",
                 "apellidos":"Pierce Jimenez",
                 "cargo":"Chief Executive Officer (CEO)",
-                "division":"DO",
+                
                 "fechaIngreso":"2009/10/09"
               },
               {
@@ -217,7 +217,7 @@ $(()=>{
                 "nombres":"Gavin Joyce",
                 "apellidos":"Pierce Jimenez",
                 "cargo":"Developer",
-                "division":"DO",
+                
                 "fechaIngreso":"2010/12/22"
               },
               {
@@ -225,7 +225,7 @@ $(()=>{
                 "nombres":"Jennifer Chang",
                 "apellidos":"Pierce Jimenez",
                 "cargo":"Regional Director",
-                "division":"DO",
+                
                 "fechaIngreso":"2010/11/14"
               },
               {
@@ -233,7 +233,7 @@ $(()=>{
                 "nombres":"Brenden Wagner",
                 "apellidos":"Pierce Jimenez",
                 "cargo":"Software Engineer",
-                "division":"DO",
+                
                 "fechaIngreso":"2011/06/07"
               },
               {
@@ -241,7 +241,7 @@ $(()=>{
                 "nombres":"Fiona Green",
                 "apellidos":"Pierce Jimenez",
                 "cargo":"Chief Operating Officer (COO)",
-                "division":"DO",
+                
                 "fechaIngreso":"2010/03/11"
               }
         ],
@@ -250,7 +250,6 @@ $(()=>{
             { data: "nombres", title: "Nombres" },
             { data: "apellidos", title: "Apellidos" },
             { data: "cargo", title: "Cargo" },
-            { data: "division", title: "División" },
             { data: "fechaIngreso", title: "F. Ingreso" },
             {
                 data: null,
